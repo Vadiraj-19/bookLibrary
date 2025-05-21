@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
       </div>
 
       <div className="flex gap-8 m-4 text-xl font-normal">
-        <a className="flex items-start" href="https://github.com/Vadiraj-19/Amazon-clone"><img src={Gitlogo} className='w-14 h-7 object-contain ' alt="git"/></a>
+        <a className="flex items-start" href="https://github.com/Vadiraj-19/bookLibrary"><img src={Gitlogo} className='w-14 h-7 object-contain ' alt="git"/></a>
         <Link to="/" ><button className="flex justify-center items-center"><i className="fa-solid fa-house text-sm px-2"></i>Home</button></Link>
         <Link to="/browsebooks/all"><button className="flex justify-center items-center"><i className="fa-solid fa-address-card text-sm px-2 "></i> Browse Books</button></Link>
         <Link to="/addbook"><button className="flex justify-center items-center"><i className="fa-solid fa-plus text-sm px-2"></i> Add book</button></Link>
